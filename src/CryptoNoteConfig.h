@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "Hilarion";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff00018080d0d88bdea2e302029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101354832496eedeca29020b4e529d53b6c1dc3db2b055c1db09dc90a10e14ad774";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -108,8 +108,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 const std::initializer_list<const char*> SEED_NODES = {
   //"your_seed_ip1.com:8080",
   //"your_seed_ip2.com:8080",
-	"13.59.170.19:12113",
-	"18.188.181.180:12113"
+	"18.217.194.55:12113",
+	"18.223.13.252:12113"
 };
 
 struct CheckpointData {
